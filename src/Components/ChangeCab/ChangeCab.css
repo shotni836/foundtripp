@@ -1,0 +1,6 @@
+.add-shadow {
+    box-shadow: 0 0 11px rgba(33,33,33,.3);
+    height: max-content;
+    margin-top: 10px !important;
+    padding: 10px;
+}

@@ -1,0 +1,54 @@
+.internationaldeals {
+    background-color: white;
+    padding-top: 360px;
+}
+.internationaldeals h4, .internationaldeals h6 {
+    color: #005BF9;
+}
+.internationaldeals h4 {
+    font-weight: 600;
+}
+.internationaldeals img {
+    opacity: 0.4;
+    border: none;
+    cursor: pointer;
+}
+.internationaldeals img:hover {
+    opacity: 1;
+    transition: all 1s;
+}
+
+.internationdealCarousel {
+    margin: 10px;
+    border: none;
+    position: relative;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.internationdealCarousel img {
+    height: 273px;
+}
+.populartourImageDiv {
+    flex: 1;
+}
+.populartourCard {
+    flex: 0.6;
+}
+.firstCarousel {
+    padding-bottom: 40px;
+}
+
+.internationdealCarousel .header {
+    color: blue;
+}
+.internationdealCarousel .hr {
+    border: 1px dotted black;
+}
+.internationdealCarousel .rating-section {
+    display: flex;
+    align-items: center;
+}
+.internationdealCarousel .rating-section span:last-child {
+    margin-left: 10px;
+}

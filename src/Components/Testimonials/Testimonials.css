@@ -1,0 +1,88 @@
+.testimonials {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.h4-style, .h6-style {
+    color: #005BF9;
+}
+.testimonialsCarousel {
+    margin: 30px;
+    border: none;
+    position: relative;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.badge5 {
+    background-color: #58c33f;
+    color: #eee;
+    position: absolute;
+    right: -26px;
+    width: max-content;
+    padding: 2px;
+    border-radius: 50%;
+    top: -20px;
+    height: 60px;
+    text-align: center;
+    font-weight: 700;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+.heart-shape {
+    margin-left: 5px;
+}
+.vl {
+    border-left: 4px solid green;
+    height: 24px;
+}
+
+.package2 {
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    bottom: -50px;
+    left: 10%;
+    padding: 10px;
+    color: #000000;
+    font-weight: 600;
+    padding-top: 19px;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+}
+.firstCarousel {
+    padding-bottom: 40px;
+}
+
+.inside-h6, .inside-p {
+    margin-left: 10px;
+}
+.badge5 i {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialsCarousel .hover-effect p:first-child {
+    padding: 35px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.testimonialsCarousel .hover-effect p{
+    margin-bottom: 0;
+}
+.testimonialsCarousel img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.center-div {
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+.highlight-name {
+    color: #005BF9;
+}

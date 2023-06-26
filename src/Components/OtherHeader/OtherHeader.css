@@ -1,0 +1,51 @@
+.other-header .packages-on-header {
+    text-align: center;
+    margin-top: 60px;
+}
+.other-header .packages-on-header p {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.other-header .packages-on-header span {
+    font-size: 18px;
+    color: white;
+    font-family: italic;
+}
+.other-header .header-hr {
+    color: white;
+    margin-top: 80px;
+    border: 2px solid;
+}
+.other-header .home-banner {
+    box-shadow: inset 0px 220px 185px 110px rgb(0 0 0 / 88%);
+}
+.other-header .packages-suggest {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.other-header .packages-suggest div {
+    margin: 0 20px;
+    text-align: left;
+}
+.other-header .packages-suggest div p {
+    font-size: 16px;
+    font-weight: 300;
+}
+.other-header .packages-suggest div span {
+    font-size: 20px;
+    font-weight: 500;
+}
+.other-header .rating-sec span {
+    margin-left: 10px;
+}
+.other-header .rating-sec {
+    margin: 0 0 !important;
+}
+
+.other-header .navbar {
+    margin-left: 90px;
+    margin-right: 90px;
+}

@@ -1,0 +1,15 @@
+.travelWithUs {
+    background-color: #1869E8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.travelWithUs h4, .travelWithUs h6 {
+    color: white;
+}
+
+.travelWithUs h4 {
+    font-weight: 600;
+}
+.travel-us-guide {
+    color: white;
+}

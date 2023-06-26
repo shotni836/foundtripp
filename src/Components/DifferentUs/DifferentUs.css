@@ -1,0 +1,18 @@
+.differentUs {
+    background-color: #1869E8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #eee;
+}
+.col-hr {
+    border-right: 2px solid white;
+}
+.col-grid-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.differentUs h4 {
+    font-weight: 600;
+}

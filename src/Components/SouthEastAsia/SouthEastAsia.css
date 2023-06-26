@@ -1,0 +1,25 @@
+.southeastasia {
+    background-color: #e6ffe1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.southEastAsiaCarousel {
+    margin: 10px;
+    border: none;
+    position: relative;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.southEastAsiaCarousel .hover-effect {
+    position: relative;
+}
+.southeastasia h4, .southeastasia h6 {
+    color: #005BF9;
+}
+.southEastAsiaCarousel img {
+    height: 302px;
+}
+.southeastasia h4 {
+    font-weight: 600;
+}

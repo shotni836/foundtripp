@@ -1,0 +1,63 @@
+.remoteplace {
+    background-color: #e6ffe1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.remoteplacecard img {
+    height: 338px;
+}
+.img__wrap {
+    position: relative;
+}
+.img__description_layer {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: #fff;
+    visibility: hidden;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .img__description_layer1 .img__description {
+    font-size: 32px;
+  } 
+
+  .img__description_layer1 {
+    position: absolute;
+    bottom: 122px;
+    left: 20px;
+    color: #fff;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description_layer, .img__wrap:hover .img__description_layer1 {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .img__description {
+    transition: all 0.4s;
+    transform: translateY(1em);
+  }
+  .img__wrap:hover .img__description {
+    transform: translateY(0);
+  }
+  .remoteplace h4, .remoteplace h6 {
+    color: #005BF9;
+  }
+  .remoteplace h4 {
+    font-weight: 600;
+  }

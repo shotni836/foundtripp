@@ -1,0 +1,52 @@
+.europe {
+    background-color: #e6ffe1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.europeCarousel {
+    margin: 10px;
+    border: none;
+    position: relative;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.europeCarousel img {
+    height: 302px;
+}
+
+.europeCarousel .hover-effect {
+    position: relative;
+    height: 302px;
+}
+.europe h4, .europe h6 {
+    color: #005BF9;
+}
+.europe h4 {
+    font-weight: 600;
+}
+.addBg span {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 20px;
+    padding-top: 50px;
+    left: 0px;
+}
+
+.europeCarousel:hover .card-img-top {
+    opacity: 0;
+}
+.europeCarousel:hover .seen-on-hover img {
+    opacity: 1;
+}
+.seen-on-hover img {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    transform: translate(0, -100%);
+    -ms-transform: translate(0%, -100%);
+}

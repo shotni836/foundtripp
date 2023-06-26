@@ -1,0 +1,25 @@
+.middleeast {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.middleeastCarousel {
+    margin: 10px;
+    border: none;
+    position: relative;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.middleeastCarousel .hover-effect {
+    position: relative;
+}
+.middleeast h4, .middleeast h6 {
+    color: #005BF9;
+}
+.middleeastCarousel img {
+    height: 302px;
+}
+.middleeast h4 {
+    font-weight: 600;
+}

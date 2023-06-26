@@ -1,0 +1,92 @@
+.tourPackageListing .search, .tourPackageListing .mySwiper {
+    display: none;
+}
+.tourPackageListing .home-banner {
+    height: 60vh;
+}
+.tourPackageListing h3 {
+    text-align: center;
+    margin-top: 60px;
+    color: #005BF9;
+}
+.tourPackageListing h6 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.tourPackageListing .filters button {
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid #d3d3d3;
+    font-size: 14px;
+}
+
+.tourPackageListing .filters button:hover {
+    background-color: #005BF9;
+    color: white;
+}
+
+.tourPackageListing .filters {
+    margin-top: 20px;
+}
+.tourPackageListing .tourpackagelist {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+}
+.tourPackageListing .tourpackagelist .detail {
+    padding: 20px;
+}
+.tourPackageListing .tourpackagelist .detail .circle-attraction span {
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+    padding: 4px 10px;
+    margin-right: 10px;
+    background: #10a5b2;
+    color: white;
+}
+.tourPackageListing .tourpackagelist .detail .circle-attraction {
+    margin-top: 20px;
+}
+.tourPackageListing .tourpackagelist .more-details {
+    background-color: #fafafa;
+    min-width: 250px;
+    padding: 10px 16px;
+}
+.tourPackageListing .tourpackagelist .more-details .fa-check {
+    color: green;
+}
+.tourPackageListing .tourpackagelist .more-details .fa-times {
+    color: red;
+}
+.tourPackageListing .tourpackagelist .more-details p {
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #888888;
+    font-weight: 500;
+}
+.tourPackageListing .tourpackagelist .more-details p:first-child {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #888888;
+}
+.tourPackageListing .tourpackagelist .more-details p:last-child {
+    margin-top: 20px;
+}
+.tourPackageListing .tourpackagelist {
+    box-shadow: 0 0 11px rgba(33,33,33,.3); 
+}
+.tourPackageListing .tourpackagelist:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.7); 
+}
+.tourPackageListing .footer {
+    margin-top: 40px;
+}
+.tourPackageListing {
+    overflow-x: hidden;
+}

@@ -1,0 +1,444 @@
+.search {
+    /* background-color: #00a991; */
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.rdrDefinedRangesWrapper {
+    display: none;
+}
+.searchCard {
+    margin-top: 100px;
+    background-color: rgb(255,255,255, .7);
+    width: 100%;
+    height: 190px;
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 62px 0px rgba(211,211,211,0.81);
+    -moz-box-shadow: 10px 10px 62px 0px rgba(211,211,211,0.81);
+    box-shadow: 10px 10px 62px 0px rgba(211,211,211,0.81);
+}
+#trip_way, #trip_class{
+    border-radius: 4px;
+    background-color: white;
+    outline: none;
+}
+#trip_way svg {
+    margin-left: -70px !important;
+    color: black !important;
+}
+
+#trip_way .css-fa13ft-control {
+    border: none !important;
+    border-color: none !important;
+}
+.placeHolder {
+    color: #1d1d1d;
+}
+.return-trip, .departure-trip {
+    width: 100%;
+    height: 100%;
+    /* border-color: hsl(0, 0%, 80%); */
+    border-radius: 4px;
+    border: 1px solid hsl(0, 0%, 80%);
+    padding-left: 16px;
+}
+.react-datepicker-wrapper, .react-datepicker__input-container  {
+    height: 100%;
+}
+.react-datepicker_day-name, .react-datepickerday, .react-datepicker_time-name {
+    margin: 0.9rem !important;
+}
+.react-datepicker__header {
+    background-color: #ffffff;
+}
+.react-datepicker_current-month, .react-datepicker-time_header, .react-datepicker-year-header {
+    background-color: #e8edf1;
+}
+.react-datepicker__month-container {
+    width: 400px;
+}
+.react-datepicker__day:hover {
+    background-color: #216ba5 !important;
+    color: white;
+}
+.departure-text {
+    z-index: 999999999;
+    top: 52px;
+    left: 20px;
+    font-size: 16px;
+    color: #005BF9;
+    font-weight: 600;
+}
+.return-text {
+    z-index: 999999999;
+    top: 52px;
+    left: 260px;
+    font-size: 16px;
+    color: #005BF9;
+    font-weight: 600;
+}
+.drp-calendar.left, .drp-calendar.right {
+    padding-top: 70px !important;
+}
+/* td.in-range.available {
+    background-color: white !important;
+    color: black !important;
+} */
+.datepickerinput {
+    word-spacing: 68px;
+    border: none !important;
+    padding-left: 103px !important;
+    padding-top: 7px !important;
+}
+.flight-symbol {
+    left: 54%;
+    top: -6px;
+    font-size: 32px;
+}
+.remove-symbol {
+    word-spacing: 80px;
+}
+.flight-div {
+    border: 1px solid #D3D3D3;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.text-on-input {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    word-spacing: 178px;
+    pointer-events: none;
+    font-weight: 600;
+}
+.simple-datepicker {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    padding-left: 150px;
+    padding-top: 2px;
+    /* box-shadow: 0 0 11px rgba(33,33,33,.8); */
+}
+.shadow1 {
+    color: #1d1d1d !important;
+}
+.datepicker-div {
+    position: relative;
+    height: 38px;
+}
+
+.departure-datepicker {
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    font-weight: 600;
+}
+
+.custom-class {
+    background-color: red;
+}
+
+.fly {
+	font-size: 3rem;
+	margin: auto;
+	animation: fly 20s linear infinite;
+	position: absolute;
+	transform-origin: right bottom;
+}
+
+.fly .emoji {
+	display: block;
+	transform: rotateZ(45deg);
+}
+
+@keyframes fly {
+	0% {
+		left: 100px;
+		top: -50px;
+		transform: rotateZ(0deg);
+	}
+
+	30% {
+		left: 800px;
+		top: 50px;
+		transform: rotateZ(0deg);
+	}
+
+	40% {
+		left: 800px;
+		top: 0px;
+		transform: rotateZ(90deg);
+	}
+
+	50% {
+		left: 800px;
+		top: 50px;
+		transform: rotateZ(180deg);
+	}
+
+	80% {
+		left: 100px;
+		top: 10px;
+		transform: rotateZ(180deg);
+	}
+	90% {
+		left: 0px;
+		top: 20px;
+		transform: rotateZ(270deg);
+	}
+
+	100% {
+		left: 100px;
+		top: 0px;
+		transform: rotateZ(360deg);
+	}
+}
+.react-tabs {
+    width: 100%;
+}
+
+.react-tabs__tab-list {
+    border-bottom: none !important;
+    margin: 0 0 0px !important;
+    border-radius:  8px 8px 0 0 !important;
+}
+
+.react-tabs__tab--selected {
+    background-color: white  !important;
+    color: #111111 !important;
+    box-shadow: 0 0 4px -2px rgba(0,0,0,.2);
+}
+.react-tabs__tab-panel--selected {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    box-shadow: 0 0 24px 2px rgba(0,0,0,.2);
+}
+.react-tabs__tab {
+    border: none !important;
+    bottom: 0 !important;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(0,0,0,.24);
+    padding: 1rem 2rem !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  .dropdown > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  .dropdown > label,
+  .dropdown > a[role="button"] {
+    display: inline-block;
+    padding: 6px 15px;
+    color: #333;
+    line-height: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  
+  .dropdown > label:hover,
+  .dropdown > a[role="button"]:hover,
+  .dropdown > a[role="button"]:focus {
+    border-color: #333;
+  }
+  
+  .dropdown > label:after,
+  .dropdown > a[role="button"]:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: 6px;
+  }
+  
+  .dropdown > ul {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    left: -100vw;
+    top: calc(1.5em + 14px);
+    background: #fff;
+    padding: 10px 10px;
+    margin: 0;
+    list-style: none;
+    width: 300px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+  }
+  
+  .dropdown > ul a {
+    display: block;
+    padding: 6px 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown > ul a:hover,
+  .dropdown > ul a:focus {
+    background: #ececec;
+  }
+  
+  .dropdown > input[type="checkbox"]:checked ~ ul,
+  .dropdown > ul:target {
+    left: 0;
+  }
+  
+  .dropdown > [type="checkbox"]:checked + label:after,
+  .dropdown > ul:target ~ a:after {
+    content: "\f0d8";
+  }
+  
+  .dropdown a.close {
+    display: none;
+  }
+  
+  .dropdown > ul:target ~ a.close {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-indent: -100vw;
+    z-index: 1000;
+  }
+
+  .quantity {
+    display: inline-block; }
+   
+   .quantity .input-text.qty {
+    width: 35px;
+    height: 32px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+   }
+   
+   .quantity.buttons_added {
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+
+   .adult_child {
+    z-index: 9999999 !important;
+   }
+
+   .adult_child li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+   }
+   input#my-dropdown {
+    height: 38px;
+   }
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 2px 10px 8px;
+    height: 32px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor:pointer;}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+    .dropdown > input[type="checkbox"]:checked ~ ul, .dropdown > ul:target {
+        left: -100px;
+        top: 50px;
+    }
+   
+
+    .make-heavy-font {
+        font-weight: 700;
+    }
+    .trip-side-count {
+        background-color: transparent;
+        border: none;
+        border-radius: 25px;
+        padding: 7px 20px;
+        background-color: #f4f4f4;
+        margin-right: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .trip-side-count:first-child {
+        background-color: #e7fddc;
+        color: #188920;
+    }
+    .trip-side-count:active, .trip-side-count:focus, .trip-side-count:hover {
+        background-color: #e7fddc;
+        color: #188920;
+    }
+    .increase-height, .increase-height .css-13cymwt-control {
+        height: 100%;
+    }
+    .both-side-indicator {
+        position: absolute;
+        top: 14px;
+        right: -18px;
+        border: 1px solid #bdbdbd   ;
+        background: transparent;
+        border-radius: 50%;
+        z-index: 9999;
+        display: flex;
+    }
+    .both-side-indicator svg {
+        height: 23px;
+        fill: #bdbdbd;
+    }
+    .direct-flight {
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+    .flight-last-row{
+        display: flex;
+        align-items: center;
+    }

@@ -1,0 +1,45 @@
+.App {
+    overflow-x: hidden;
+    font-family: 'Circular Pro', -apple-system, '.SFNSText-Regular', 'San Francisco', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', sans-serif;
+}
+.navbar {
+    /* overflow-x: hidden; */
+}
+.react-multiple-carousel__arrow--left, .react-multiple-carousel__arrow {
+    top: 0px;
+    height: 26px !important;
+    width: 26px !important;
+    background: white !important;
+    border: 1px solid black !important;
+    min-height: unset !important;
+    min-width: unset !important;
+    left: unset !important;
+    right: calc(5% + 1px);
+}
+.react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px) !important;
+}
+.react-multiple-carousel__arrow::before {
+    font-size: 14px !important;
+    color: black !important;
+}
+.firstCarousel {
+    padding-top: 40px;
+}
+.indiaTour .firstCarousel {
+    padding-top: 20px !important;
+}
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    margin: 0.366rem 0.766rem  !important;
+    color: #4a617c !important;
+    font-weight: bolder;
+}
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    color: white !important;
+}
+.react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover {
+    color: white !important;
+}
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    color: #4a617c !important;
+}

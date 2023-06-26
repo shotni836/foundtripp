@@ -1,0 +1,45 @@
+.fa-check {
+    color: green;
+}
+.fa-times {
+    color: red;
+}
+.changeFlight .ul-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0;
+}
+.changeFlight .tourpackagelist {
+    display: flex;
+    cursor: pointer;
+}
+.changeFlight .google_map {
+    height: 214px !important;
+    width: 200px !important;
+}
+
+.fa-angle-double-down {
+    font-size: 20px !important;
+    margin-right: 10px;
+}
+.fa-angle-double-up {
+    font-size: 20px !important;
+    margin-right: 10px;
+}
+.changeFlight .price-symbol-green {
+    display: flex;
+    align-items: center;
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+}
+.changeFlight .price-symbol-red {
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,88 @@
+.tourPackageListing .search, .tourPackageListing .mySwiper {
+    display: none;
+}
+.tourPackageListing .home-banner {
+    height: 10vh;
+}
+.tourPackageListing h3 {
+    text-align: center;
+    margin-top: 60px;
+    color: #005BF9;
+}
+.tourPackageListing h6 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.tourPackageListing .images-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.tourPackageListing .images-grid .card-details {
+    flex: 0 0 30.33%;
+    margin: 15px;
+}
+
+.tourPackageListingCard p {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.tourPackageListing .images-grid .card-details .list-details {
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    color: #005BF9;
+}
+.tourPackageListing .images-grid .card-details .list-details i {
+    margin-right: 10px;
+}
+.tourPackageListing .badge3 {
+    color: white;
+    background-color: white;
+    min-width: 40px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.tourPackageListing .grabdealbutton {
+    float: right;
+}
+.tourPackageListing .booktournow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tourPackageListing .booktournow span:first-child {
+    font-size: 12px;
+    font-weight: 300;
+}
+.tourPackageListing .booktournow span:nth-child(2) {
+    color: #005BF9;
+    margin-left: 5px;
+}
+.tourPackageListing .card, .tourPackageListing img {
+    border-radius: 0;
+}
+.tourPackageListing .card {
+    transition: box-shadow .3s;
+}
+.tourPackageListing .card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.7); 
+}
+.tourPackageListing .filters {
+    display: flex;
+    margin-top: 40px;
+}
+.tourPackageListing .filters button {
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid #d3d3d3;
+    font-size: 14px;
+}
+
+.tourPackageListing .filters button:hover {
+    background-color: #005BF9;
+    color: white;
+}

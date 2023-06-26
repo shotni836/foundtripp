@@ -1,0 +1,20 @@
+/**
+ * @author Jothisankar
+ * Moved all the custom scripts loaded in our application to this file to control
+ * We can control the execution of this file separately by defer which in-turn
+ * make everything deferred
+ */
+// Google tag manager
+(function(w, d, s, l, i) {
+  w[l] = w[l] || [];
+  w[l].push({
+    'gtm.start': new Date().getTime(),
+    event: 'gtm.js'
+  });
+  var f = d.getElementsByTagName(s)[0],
+    j = d.createElement('script'),
+    dl = l != 'dataLayer' ? '&l=' + l : '';
+  j.defer;
+  j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+  f.appendChild(j);
+})(window, document, 'body', 'dataLayer', 'GTM-PX5SGGD');

@@ -1,0 +1,14 @@
+.simple-header .home-banner {
+    background-color: white;
+    box-shadow: none;
+}
+.simple-header .home-banner .dropdown2 {
+    color: black;
+    font-size: 14px;
+}
+.simple-header .home-banner .dropdown2 .user-icon {
+    border: 2px solid black;
+}
+.simple-header .home-banner .navbar-brand {
+    filter : unset;
+}
